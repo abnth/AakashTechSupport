@@ -53,7 +53,7 @@ Explain each page in detail with screen-shots.
 
 Example:
 
-.. figure:: _static/images/aakash.png
+.. figure:: _static/img/aakash.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -74,7 +74,7 @@ The user is able to go to the submit ticket page by clicking on the link to the 
 * Category of the problem: The user is given a drop down list of categories to select from.
 * Email : The email field is automatically populated with the email id of the logged in user.
 
-.. figure:: _static/images/submit_ticket.png
+.. figure:: _static/img/submit_ticket.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -87,7 +87,7 @@ Once the user has submitted his details, the tablet id is validated to see that 
 
 A screenshot of the page showing the ticket number so generated is shown below:
 
-.. figure:: _static/images/after_submit.png
+.. figure:: _static/img/after_submit.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -109,7 +109,7 @@ The user can close the ticket once he is satisfied with the reply by clicking on
 
 The following screenshot shows the page containing the ticket details of the user; when he clicks on the view tickets link:
 
-.. figure:: _static/images/view_tickets.png
+.. figure:: _static/img/view_tickets.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -127,7 +127,7 @@ Three different graphs/charts have been implemented:
 
 * A pie chart showing the Category-wise breakup of tickets.
 
-.. figure:: _static/images/category_breakup.png
+.. figure:: _static/img/category_breakup.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -138,7 +138,7 @@ Three different graphs/charts have been implemented:
 
 * A pie chart showing the number of open vs number of closed tickets.
 
-.. figure:: _static/images/open_vs_closed.png
+.. figure:: _static/img/open_vs_closed.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -149,7 +149,7 @@ Three different graphs/charts have been implemented:
 
 * A bar chart showing the number of tickets generated per month.
 
-.. figure:: _static/images/traffic.png
+.. figure:: _static/img/traffic.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -168,7 +168,7 @@ The admin dashboard  system allows the admin to check the submitted issues by aa
 
 A screenshot of the page showing the ticket number so generated is shown below:
 
-.. figure:: _static/images/dashboard.png
+.. figure:: _static/img/dashboard.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -194,7 +194,7 @@ The  Reply interface between user and admin
 Reply interface allows admin to reply the query of a specific ticket by clicking on it's Ticket id.
 screenshot of the page showing the  reply interface for a particular ticket number is shown below:
 
-.. figure:: _static/images/reply.png
+.. figure:: _static/img/reply.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %

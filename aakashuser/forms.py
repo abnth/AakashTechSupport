@@ -159,7 +159,7 @@ class UserProfileForm(forms.ModelForm):
 			    )
     avatar = forms.ImageField(
 			    label='Profile picture',
-			    help_text='jpg/jpeg/png file of size less than 1MB required.',
+			    help_text='jpg/jpeg/png file of resolution less than 500*500 and size less than 1MB required.',
 			    required=False,
 			     widget=forms.FileInput(attrs={
 			     'placeholder': 'Profile picture.'}),

@@ -16,7 +16,11 @@ import re
 from django.contrib.auth.decorators import login_required
 # INDEX PAGE VIEW
 from django.conf import settings
-
+import StringIO
+from PIL import *
+import hashlib
+import os
+from django.core.files import *
 
 def index(request):
     context = RequestContext(request)
@@ -213,13 +217,11 @@ def search_tags(request):
 
     render_to_response('search.html', search_dict)
 
-
 @login_required
 def profile(request):
     if request.method == "POST":
         if request.user.is_authenticated():
-
-            try:
+	    try:
                 u = User.objects.get(username=request.user.username)
             except User.DoesNotExist:
                 u = None
@@ -238,12 +240,22 @@ def profile(request):
                     image = request.FILES['avatar']
                     print image.content_type
                     print image.size
+                    from django.core.files.images import *
+                    image_dim = get_image_dimensions(image)
+                    print image_dim[0]<=500
+                    print image_dim[1]<=500
                     if image.content_type in ["image/jpeg", "image/png", "image/jpg"] and (image.size / 1024) <= 1024:
+		      if image_dim[0]<=500 and image_dim[1]<=500:
                         up.avatar.save(image.name, image)
-                    else:
+		      else:
                         return render_to_response('user_profile/after_profile_update.html',
                                                   {"message":
-                                                      "file type is invalid or size exceeds 1 MB"},
+                                                      "Your pictures resolution should not be more than 500*500"},
+                                                  RequestContext(request))
+		    else:
+		      return render_to_response('user_profile/after_profile_update.html',
+                                                  {"message":
+                                                      "file type is invalid or size exceeds 1 MB."},
                                                   RequestContext(request))
                 else:
                     up.location = request.POST['location']
@@ -304,4 +316,3 @@ def view_profile(request):
         'user_profile/display_profile.html',
         context_dict,
         RequestContext(request))
-
