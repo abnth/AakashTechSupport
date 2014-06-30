@@ -208,14 +208,15 @@ Design and Implementation constraints
 This system is provisioned to be built on the Django framework which is highly flexible.Decision regarding which database to use should be taken considering the fact that data being exchanged or stored is large, and the appropriate data management system will yield efficient performance.
 
 
-Specific Requirements 
----------------------
-
 
 External user Requirement
-+++++++++++++++++++++++++
+=========================
 
-- User Interface
+User Interface
+--------------
+
+Ticketing system
+++++++++++++++++
 
 The ticket submission system allows the user to submit his issues for resolution by the tech support officials in case the FAQs and discussion forum do not provide enough information.
 
@@ -345,15 +346,18 @@ screenshot of the page showing the  reply interface for a particular ticket numb
 
 The above Page show the all Details of a particular ticket along with the problem message submitted by the user. The admin  can reply correspondingly to the problem in the response section and by clicking Post Reply to send a e-mail to the user. The top of the page also shows the statistics of open and close tickets
 
-- Hardware Interface
+Hardware Interface
+------------------
 
 Device should be Internet enabled.
 
-- Software interface
+Software interface
+------------------
 
 The user's browser should be HTML5 compatible for a satisfactory user experience.
 
-- Communication Interface
+Communication Interface
+-----------------------
 
 Setting up the server into server mode requires that there will be open ports for accepting connections from the clients. The connection between the client and the server uses Connection oriented communication, via TCP/IP—Transfer Control Protocol/Internet Protocol, implements reliable delivery of messages. Connection-oriented communication makes programming easier because the protocol includes mechanisms for detecting and handling errors and an acknowledgment mechanism between client and service. 
 
