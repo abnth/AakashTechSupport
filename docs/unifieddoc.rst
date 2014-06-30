@@ -249,7 +249,7 @@ A screenshot of the page showing the ticket number so generated is shown below:
    Page displaying ticket id after the ticket is submitted
 
 
-	* The view tickets feature for the user to view the details of all the tickets submitted by him
+* The view tickets feature for the user to view the details of all the tickets submitted by him
 
 The user can view the details of all the tickets submitted by him; provided he is logged in.
 
@@ -270,49 +270,49 @@ The following screenshot shows the page containing the ticket details of the use
    Page containing the ticket details of the user
 
 
-	* The chart/graph display system on the admin dashboard
+* The chart/graph display system on the admin dashboard
 
 The admin can conveniently visualize the statistics about the tickets generated and resolved by using interactive charts and graphs.
 Three different graphs/charts have been implemented:
 
-	  * A pie chart showing the Category-wise breakup of tickets.
+  * A pie chart showing the Category-wise breakup of tickets.
 
-		.. figure:: _static/img/category_breakup.png
-		   :height: 600 px
-		   :width: 900 px
-		   :scale: 50 %
-		   :alt: pie chart showing the Category-wise breakup of tickets
-		   :align: center
+	.. figure:: _static/img/category_breakup.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: pie chart showing the Category-wise breakup of tickets
+	   :align: center
 
-		   pie chart showing the Category-wise breakup of tickets
+	   pie chart showing the Category-wise breakup of tickets
 
-	  * A pie chart showing the number of open vs number of closed tickets.
+  * A pie chart showing the number of open vs number of closed tickets.
 
-		.. figure:: _static/img/open_vs_closed.png
-		   :height: 600 px
-		   :width: 900 px
-		   :scale: 50 %
-		   :alt: pie chart showing the number of open vs number of closed tickets
-		   :align: center
-		   
-		    pie chart showing the number of open vs number of closed tickets
+	.. figure:: _static/img/open_vs_closed.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: pie chart showing the number of open vs number of closed tickets
+	   :align: center
+	   
+	    pie chart showing the number of open vs number of closed tickets
 
-	  * A bar chart showing the number of tickets generated per month.
+  * A bar chart showing the number of tickets generated per month.
 
-		.. figure:: _static/img/traffic.png
-		   :height: 600 px
-		   :width: 900 px
-		   :scale: 50 %
-		   :alt: pie chart showing the number of tickets generated per month
-		   :align: center
-		   
-		    pie chart showing the number of tickets generated per month
+	.. figure:: _static/img/traffic.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: pie chart showing the number of tickets generated per month
+	   :align: center
+	   
+	    pie chart showing the number of tickets generated per month
 
 The pie charts are interactive and can be rendered in different ways as desired by the admin; by clicking on the buttons along the right margin.
 
 
 
-	* The admin dashboard
+* The admin dashboard
 
 The admin dashboard  system allows the admin to check the submitted issues by aakash  tablet id holders in case the FAQs and discussion forum do not provide enough information.To access the admin panel the admin should be logged in with his corresponding id and  password.The main page of the admin dashboard shows all the tickets submitted by the  user and the category of the  problem.
 
@@ -328,7 +328,7 @@ A screenshot of the page showing the ticket number so generated is shown below:
     all the ticket numbers generated so far are shown on the dashboard 
 
 
-	* The  Reply interface between user and admin
+* The  Reply interface between user and admin
 
 Reply interface allows admin to reply the query of a specific ticket by clicking on it's Ticket id.
 screenshot of the page showing the  reply interface for a particular ticket number is shown below:
