@@ -25,7 +25,7 @@ Contributors
 +----------------------+---------------+---------------------------+
 |     Som Pathak       |  SVNIT Surat  |   sompathaka@gmail.com    |
 +----------------------+---------------+---------------------------+
-|    Kavleen Kalra     | MBMEC Jodhpur |  kavleen.kalra@gmail.com  |
+|    Kavleen Kalra     |  MBM Jodhpur  |  kavleen.kalra@gmail.com  |
 +----------------------+---------------+---------------------------+
 |    Shubham Utwal     |  VNIT Nagpur  |  shubhamutwal@gmail.com   |
 +----------------------+---------------+---------------------------+

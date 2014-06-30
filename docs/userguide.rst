@@ -197,7 +197,67 @@ about 70% of the user-guide.
 Workflow
 ~~~~~~~~
 
-Describe models(in layman terms)
+- A model is the single, definitive source of information about your
+  data. It contains the essential fields and behaviors of the data
+  you’re storing. Generally, each model maps to a single database
+  table.Each attribute of the model represents a database field.
+
+ *In this website the various models used :*
+
+- Ticket: This model stores the details of all the tickets and therefore represents a ticket submitted by the user. For each ticket the user id of the user submitting the ticket, the category of the issue, the tablet id of the user, message describing the users problem, the ticket id assigned for that issue, created date time, overdue date time, closed date and time, status of the ticket, i.e. whether open or closed, priority status of the ticket and duration for reply.
+	
+
+- Tablet_info: The details of each aakash tablet issued so for are stored in the Tablet_info table. The details include remote center id, remote center name, start id of the tablets issued, end id of the tablets issued, tablet count and city at which the remote center is located.
+
+- Reviewer: A reviewer is an user of the website who can sign up by
+  filling their user details, contact and picture in the registration
+  form. The administrator will be notified about the new request from
+  a user via a email and will verify the details of the details of
+  reviewer and if the access permissions are granted then they can
+  review and give their comment on the unreviewed contents.
+
+- Class: describes which class the study material belong to. Based on
+  the class, the student accesses the study materials. Administrator
+  stores number of classes in the database so that the contributor can
+  contribute or the reviewer can review the content in a particular
+  class.
+
+- Subject: A contributor can upload content for the website by filling
+  a form that includes subject name, topic, class-name and files that
+  can be in pdf, video, animation formats. Rating can be given by
+  administrator based on the capabilities of contributor upload.
+
+- Comment: The comments are given by the reviewer on a topic of the
+  subject. The date on which the comments are submitted are also noted
+  along with the reviewer details.
+
+   - Every user who logs in must be either a contributor or reviewer.
+   - If the person who logs in, is a reviewer he/she can just see the
+     materials but cannot modify the data. He can see the comments
+     given by the reviewers but can not comment.
+   - If the person who logs in, is a contributor he will be given
+     permission to upload contents for the website. The contributor
+     can see the comments given by the reviewers.
+   - If the person who logs in, is a reviewer he will be given
+     permission to review the uploaded content of the contributor and
+     comment on it.
+   - Reviewer doesn't have the permission to upload any files.
+   - An upload will be available to the non-user if and only if it is
+     approved by atleast 3 reviewers.
+   - A non-user can search the study materials based on the subject
+     name or topic.
+   - A non-user may download the files which is pdf, video or
+     animation files.
+
+- Contact: Non-user can give their suggestions on the different
+  contents or request for new contents. He/she can send their
+  name,email id and message in order to contact the adminstrator.
+
+- Faq: Faq consists of fields like questions and answers. It describes
+  the frequently asked questions and answers by users.
+
+- Language: Non-user can view the content in different languages
+  mentioned in the model.
 
 
 Interface
