@@ -215,8 +215,7 @@ External user Requirement
 User Interface
 --------------
 
-- Ticketing system
-++++++++++++++++++
+- **Ticketing system**
 
 The ticket submission system allows the user to submit his issues for resolution by the tech support officials in case the FAQs and discussion forum do not provide enough information.
 
