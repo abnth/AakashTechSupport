@@ -209,12 +209,7 @@ Workflow
 
 - Tablet_info: The details of each aakash tablet issued so for are stored in the Tablet_info table. The details include remote center id, remote center name, start id of the tablets issued, end id of the tablets issued, tablet count and city at which the remote center is located.
 
-- Reviewer: A reviewer is an user of the website who can sign up by
-  filling their user details, contact and picture in the registration
-  form. The administrator will be notified about the new request from
-  a user via a email and will verify the details of the details of
-  reviewer and if the access permissions are granted then they can
-  review and give their comment on the unreviewed contents.
+- Threads: The thread model enables  admin to give more than one reply to a user. Details of each thread such as created date and time , reply posted by the admin, ticket to which the admin posts a reply and the number of replies for a particular ticket.
 
 - Class: describes which class the study material belong to. Based on
   the class, the student accesses the study materials. Administrator
