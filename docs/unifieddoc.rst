@@ -50,7 +50,41 @@ We declare that this written submission represents our ideas in our own words an
 
 
 **Aakash Portal Team**
-**Date:** 30-06-2013
+**Date:** 02-07-2014
+
+
+Abstract
+========
+
+
+The Aakash Tech Support Portal is a online Portal, which is divided into two modules, Discussion forum and Ticketing system.
+
+
+Discussion forums Provides Aakash tablet users a platform to discuss the technical Problem that they face with the tablet with each other. Discussion Forum, FAQ and submit ticket features are provided to the users to help him solve the problem.
+
+
+The Discussion forum is an online platform which brings users together and facilitates community engagement and helps them to solve any issues related to their Aakash tablets. Users can view and help in existing questions or post new ideas and discuss on them. In case the discussion forums are unable to solve their problems they can submit a ticket and get their issue resolved.
+
+Aakash Tech Support Portal is Open Source software. Therefore it is going to be freely available. It is Platform Independent, easy to operate and maintain.
+
+List of Diagrams
+================
+
+A list of diagrams.
+
+- Use case diagram of the Ticketing System 
+
+- Use case diagram of the Login and Registration system 
+
+- Use case diagram for Discussion Forum
+
+- Level 0 data flow diagram for Aakash Portal 
+
+- Level 1dat a flow diagram for Aakash Portal 
+
+- Flow chart for Report Problem 
+
+- ER diagram for Database 
 
 
 Introduction
@@ -68,12 +102,12 @@ The purpose of this document is to present a detailed description of Aakash Tech
 Project Scope
 -------------
 
-With the continued evolution in technology, portal is becoming more and more essential now-a-days, where user can freely express their thoughts, ideas and discuss their issues that they are currently facing with the technologies and products they use.Aakash portal provides a convenient and easy-to-use graphical user interface to use.
+With the continued evolution in technology, portal is becoming more and more essential now-a-days, where user can freely express their thoughts, ideas and discuss their issues that they are currently facing with the technologies and products they use.Aakash tech support portal provides a convenient and easy-to-use graphical user interface for the users.
 
 The Aakash Tech Support portal is divided into two modules:
 
 - *Discussion Forums*: Aakash Tech support portal's Discussion forums provides a platform where Aakash tablet users can share and clarify their issues which they are facing with Aakash tablet.
-- *Ticketing system*: The ticketing system enables user to submit tickets related to his issues in case he cannot find his answers on discussion forums. It also enables the admin to answer his query and view statistics related to ticket traffic and category wise breakup of tickets.
+- *Ticketing system*: The ticketing system enables user to submit tickets related to his issues in case he cannot find his answers on discussion forums. It also enables the admin to answer users query and view statistics related to ticket traffic and category wise breakup of tickets.
 
 
 Aakash Tech Support Portal is an Open Source software i.e. Aakash Tablet user can utilize the resources available on portal without any cost. Therefore it is going to be freely available. It is Platform- Independent and easy to operate and maintain.
@@ -87,7 +121,7 @@ This document will be the first guide for prospective software developers, proje
 
 - *Developer*: The developer who wants to read, change, modify or add new requirements into the existing program may need first to consult this document and update the requirements in appropriate manner so as not to change the actual purpose of the system or make the system inconsistent.
 - *User*: The user of this program reviews the diagram and the specification provided in the document and check to determine whether the software has all the suitable requirements and if the software developer has the implemented all of them. He can also consult the user guide in the event of any confusion for clarifications.
-- *Tester*: The tester needs this document to prepare his test cases to validate that the initial requirements of this project is actually implemented in the deliverable.
+- *Tester*: The tester needs this document to prepare his test cases to validate that the initial requirements of this project is actually implemented in the deliverables.
 
 Definitions, Acronyms and Abbreviations
 ---------------------------------------
@@ -121,34 +155,13 @@ References
 * `http://stackoverflow.com/ <http://stackoverflow.com/>`_
 
 
-List of Diagrams
-================
-
-A list of diagrams.
-
-- Use case diagram of the Ticketing System 
-
-- Use case diagram of the Login and Registration system 
-
-- Use case diagram for Discussion Forum
-
-- Level 0 data flow diagram for Aakash Portal 
-
-- Level 1dat a flow diagram for Aakash Portal 
-
-- Flow chart for Report Problem 
-
-- ER diagram for Database 
-
-
 Product Perspective 
 ===================
 
-The product is supposed to be an open source, under the GNU general Public License. It is a web based system implementing client-server model. The Aakash portal System provides simple mechanism for users to share and acquire knowledge.
+The product is supposed to be an open source, under the GNU general Public License. It is a web based system implementing client-server model. The Aakash Aakash tech support portal provides simple mechanism for users to share and acquire knowledge and help each other to solve their problems.
 
 
-The following are the main features that are included in Aakash Portal
-
+The following are the main features that are included in Aakash tech support portal
 
 
 - Cross platform support: Offers operating support for most of the known and commercial operating systems.
@@ -174,13 +187,19 @@ It is considered that the user do have the basic knowledge of operating the inte
 Operating Environment
 ---------------------
 
-This is a web based system and hence will require the operating environment for a client and server GUI. This will be operating in the following operating environment:
+This is a web based system and hence will require the operating environment for a client and server GUI. This will be operating in the following operating systems:
+
+Apple Mac OS X 
+
+Linux/Unix 
+
+Microsoft Windows 
 
 
 Dependencies 
 ------------
 
-- This software highly depends on type and version of browser being installed in the system i.e. browser version should be used which have HTML5 support.
+- This software highly depends on type and version of browser installed in the system. A browser version should be used which have HTML5 support for best experience.
 
 
 Design and Implementation constraints
@@ -195,13 +214,148 @@ Specific Requirements
 
 External user Requirement
 +++++++++++++++++++++++++
+
+- User Interface
+
+The ticket submission system allows the user to submit his issues for resolution by the tech support officials in case the FAQs and discussion forum do not provide enough information.
+
+The user is able to go to the submit ticket page by clicking on the link to the same on the home page; provided he is logged in.A user is allowed to submit a ticket only if he is logged in. If a user tries to submit a ticket without being logged in; he is redirected to the login page.Once the user has been logged in and is on the submit ticket page; in order for him to submit his issue he has to provide the following details:
+
+* Tablet id: The tablet id is an eight digit number inscribed on the back of every aakash tablet.
+* Message: The details of the problem that the user is facing goes here.
+* Category of the problem: The user is given a drop down list of categories to select from.
+* Email : The email field is automatically populated with the email id of the logged in user.
+
+.. figure:: _static/img/submit_ticket.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: Submit ticket page
+   :align: center
+
+   Submit ticket page
+
+Once the user has submitted his details, the tablet id is validated to see that its genuine; following which the user is taken to a page where his unique ticket id is displayed. The user can quote this ticket id later to refer to the problem in future.
+
+A screenshot of the page showing the ticket number so generated is shown below:
+
+.. figure:: _static/img/after_submit.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: Page where ticket id is displayed after submitting the ticket
+   :align: center
+
+   Page displaying ticket id after the ticket is submitted
+
+
+* The view tickets feature for the user to view the details of all the tickets submitted by him
+
+The user can view the details of all the tickets submitted by him; provided he is logged in.
+
+The details displayed include the ticket id, the status of the ticket (whether open or closed), the created date and time of the ticket, the priority of the ticket, the tablet id of the user, the message submitted by the user and the reply posted by the admin
+The link for the user to view his submitted tickets’ details is present on the page displayed to the user once he logs in. If the user is not logged in; he is not shown the link to view the submitted tickets.
+
+The user can close the ticket once he is satisfied with the reply by clicking on the close ticket option.
+
+The following screenshot shows the page containing the ticket details of the user; when he clicks on the view tickets link:
+
+.. figure:: _static/img/view_tickets.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: page containing the ticket details of the user
+   :align: center
+
+   Page containing the ticket details of the user
+
+
+* The chart/graph display system on the admin dashboard
+
+The admin can conveniently visualize the statistics about the tickets generated and resolved by using interactive charts and graphs.
+Three different graphs/charts have been implemented:
+
+  * A pie chart showing the Category-wise breakup of tickets.
+
+.. figure:: _static/img/category_breakup.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: pie chart showing the Category-wise breakup of tickets
+   :align: center
+
+   pie chart showing the Category-wise breakup of tickets
+
+  * A pie chart showing the number of open vs number of closed tickets.
+
+.. figure:: _static/img/open_vs_closed.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: pie chart showing the number of open vs number of closed tickets
+   :align: center
+   
+    pie chart showing the number of open vs number of closed tickets
+
+  * A bar chart showing the number of tickets generated per month.
+
+.. figure:: _static/img/traffic.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: pie chart showing the number of tickets generated per month
+   :align: center
+   
+    pie chart showing the number of tickets generated per month
+
+The pie charts are interactive and can be rendered in different ways as desired by the admin; by clicking on the buttons along the right margin.
+
+
+
+* The admin dashboard
+
+The admin dashboard  system allows the admin to check the submitted issues by aakash  tablet id holders in case the FAQs and discussion forum do not provide enough information.To access the admin panel the admin should be logged in with his corresponding id and  password.The main page of the admin dashboard shows all the tickets submitted by the  user and the category of the  problem.
+
+A screenshot of the page showing the ticket number so generated is shown below:
+
+.. figure:: _static/img/dashboard.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: ticket numbers generated so far are shown on the dashboard
+   :align: center
+   
+    all the ticket numbers generated so far are shown on the dashboard 
+
+
+* The  Reply interface between user and admin
+
+Reply interface allows admin to reply the query of a specific ticket by clicking on it's Ticket id.
+screenshot of the page showing the  reply interface for a particular ticket number is shown below:
+
+.. figure:: _static/img/reply.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: ticket numbers generated so far are shown on the dashboard
+   :align: center
+   
+    all the ticket numbers generated so far are shown on the dashboard 
+
+
+The above Page show the all Details of a particular ticket along with the problem message submitted by the user. The admin  can reply correspondingly to the problem in the response section and by clicking Post Reply to send a e-mail to the user. The top of the page also shows the statistics of open and close tickets
+
 - Hardware Interface
 
-Device should be enabled with Internet.
+Device should be Internet enabled.
 
 - Software interface
 
 The user's browser should be HTML5 compatible for a satisfactory user experience.
+
+- Communication Interface
+
+Setting up the server into server mode requires that there will be open ports for accepting connections from the clients. The connection between the client and the server uses Connection oriented communication, via TCP/IP—Transfer Control Protocol/Internet Protocol, implements reliable delivery of messages. Connection-oriented communication makes programming easier because the protocol includes mechanisms for detecting and handling errors and an acknowledgment mechanism between client and service. 
 
 
 Functional Requirements
@@ -326,7 +480,7 @@ As the system is easy to handle and navigates in the most expected way with no d
 Diagrammatic Descriptions
 =========================
 
-Data Flow Diagrams for Aakash Tech Support Portal
+Data Flow Diagram for Aakash Tech Support Portal
 -------------------------------------------------
 
 - DFD for discussion forums
