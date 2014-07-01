@@ -215,6 +215,69 @@ External user Requirement
 User Interface
 --------------
 
+- **Discussion Forum**
+
+A discussion forum is an online forum for individuals to discuss various topics amongst each other related to Aakash Tablet. People add their queries by posting a block of text to the group. Others can then comment and respond.
+
+- *User Panel*
+
+Here, the user can search for questions(issues) related to the Aakash Tablet. The Forum is again sub-divided into sections like 'latest', 'frequent', 'votes' and 'unanswered'.
+
+* Latest questions
+
+Questions are diplayed according to their post date and time, the latest queries being on the top.
+
+* Voted questions
+
+The most voted queries and replies will appear upfront. Only logged in users can vote for their favourite posts.
+
+* Frequently viewed questions
+
+Questions those are frequently searched or viewed are displayed which makes searching easy and simple.
+
+* Unanswered questions
+
+Posts without replies are shown. Once answered, they don't show up in this section anymore.
+
+.. figure:: static/images/questions.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: All questions
+   :align: center
+
+
+The user can further optimise his search through the 'tags' option. A tag is a keyword or label that categorizes your question with other, similar questions. This will show questions related to a particular tag(category) as selected by the user. Using the right tags makes it easier for others to find and answer your question. This include categories like 'Android problem', 'Back panle damage', 'Booting', 'Camera', 'Charging Problem', 'Wifi Connectivity', 'TouchScreen Problems', etc.
+
+.. figure:: static/images/tags.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: All tags
+   :align: center
+
+The tags can also be linked with their respective questions by using the search mechanism. The user passes the tag to be searched in a text box which is processed in a view called ‘tag_search’. In this view the name of the tag is fetched from the html textbox and is checked for its availability in the database. If the tag is present, all posts related to it have been displayed. Posts have been displayed by their creation date and can be sorted by their no of views.
+
+        Screen shot of tags
+
+Now, if the user doesn't find the appropriate question he is searching for then he can post his own question using the option 'Ask Question'. But for that, the user needs to login. Only then he is allowed to ask questions.
+
+.. figure:: static/images/login.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: Login
+   :align: center
+
+.. figure:: static/images/ask_question.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: Ask Question
+   :align: center
+
+- *Admin Panel*
+
 - **Ticketing system**
 
 The ticket submission system allows the user to submit his issues for resolution by the tech support officials in case the FAQs and discussion forum do not provide enough information.
