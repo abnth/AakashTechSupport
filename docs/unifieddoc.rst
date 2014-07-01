@@ -175,25 +175,32 @@ Software Development Life Cycle Model adopted for this project is the evolutiona
    :align: center
 
 
-* System Initiation/Planning: Feasible systems replace or supplement existing information processing mechanisms whether they were previously automated, manual, or informal
-* Requirement Analysis and Specification:Identifies the problems a new software system is suppose to solve, its operational capabilities, its desired performance characteristics, and the resource infrastructure needed to support
-system operation and maintenance.
+* System Initiation/Planning: Feasible systems replace or supplement existing information processing mechanisms whether they were previously automated, manual, or informal.
+
+* Requirement Analysis and Specification:Identifies the problems a new software system is suppose to solve, its operational capabilities, its desired performance characteristics, and the resource infrastructure needed to support system operation and maintenance.
+
 * Functional Specification or Prototyping: Identifies and potentially formalizes the objects of computation, their
 attributes and relati onships, the operations that transform these objects, the constraints that restrict system behavior,
 and so forth.
+
 * Partition and Selection (Build vs. Buy vs. Reuse): given requirements and functional specifications, divide the
 system into manage able pieces that denote logical subsystems,then determine whether new, existing, or reusable
 software systems correspond to the needed pieces.
+
 * Architectural Design and Configuration Specification: Defines the interconnection and resource interfaces between
 system subs ystems, components, and modules in ways suitable for their detailed design and overall configuration
 management.
+
 * Detailed Component Design Specification: Defines the procedural methods through which the data resources
 within the modules of a component are transformed from required inputs into provided outputs.
+
 * Component Implementation and Debugging: Codifies the preceding specifications into operational source code
 implementations and validates their basic operation.
+
 * Software Integration and Testing: Affirms and sustains the overall integrity of the software system architectural
 configuration through verifying the consistency and completeness of implemented modules, verifying the resource interfaces and interconnections against their specifications, and validating the performance of the system and subsystems
 against their requirements.
+
 * Documentation Revision and System Delivery: Packaging and rationalizing recorded system development descriptions into systematic documents and user guides, all in a form suitable for dissemination and system support.
 
 Product Perspective 
