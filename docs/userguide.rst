@@ -40,26 +40,34 @@ Aakash Portal is Open Source software. Therefore it is going to be freely availa
     pattern.Lets dive into what is MVC Design Pattern.The first thing
     to note is that that we split it over four Python files
     (``models.py``, ``views.py``, ``urls.py``) and an HTML template
-    (``latest_uploads.html``):
+    (``tagged_questions.html``):
 
   - ``models.py`` (the database tables) ::
 
 	from django.db import models
 
-	class Subject(models.Model):
-	    name = models.CharField(max_length=50)
-	    upload_date = models.DateField()
+	class Category(models.Model):
+   	    category = models.CharField(max_length=20)
+    	    description = models.TextField()
 
 
   - ``views.py`` (the business logic) ::
 
-	from django.shortcuts import render
-	from models import Subject
+	from taggit.models import Tag
+	from models import Category
 
-	def latest_uploads(request):
-	    uploads_list = Subject.objects.order_by('-upload_date')[:10]
-	    return render(request, 'latest_uploads.html', {'uploads_list': uploads_list})
-
+	def linktag(request, qid):
+    	    context = RequestContext(request)
+            cat = Category.objects.get(pk=qid)
+    	    posts_date = Post.objects.filter(category=cat).order_by('-post_date')
+    	    posts_views = Post.objects.filter(category=cat).order_by('-post_views')
+	    context_dict = {
+       		 'mytag': cat,
+       		 'posts_views': posts_views,
+       		 'posts_date': posts_date,
+            }
+ 	return render_to_response('questions/tagged_questions.html', context_dict, context)    
+    	    
 
   - ``urls.py`` (the URL configuration) ::
 
@@ -67,21 +75,30 @@ Aakash Portal is Open Source software. Therefore it is going to be freely availa
 	import views
 
 	urlpatterns = patterns('',
-	    (r'^latest/$', views.latest_uploads),
+	     url(r'^tagged_questions/(?P<qid>\d+)/$', views.linktag, name='linktag'),
 	)
 
 
-  - ``latest_uploads.html`` (the template) ::
+  - ``tagged_questions.html`` (the template) ::
 
-	<html><head><title>Uploads</title></head>
-	<body>
-	<h1>Uploads</h1>
-	<ul>
-	{% for uploads in uploads_list %}
-	<li>{{ uploads.name }}</li>
+	<!DOCTYPE html>
+	{% extends "index.html" %}
+	{% block body_block %}
+
+	{% for post in posts_date %}
+	<a class="question-hyperlink" href="/questions/{{ post.pk }}" >
+        {{ post.title }}
+        </a>
+	<div class="excerpt">
+        {{ post.body }}
+        </div>
+	<div class="tags t-search">
+        <a class="post-tag" rel="tag" href="/questions/tagged_questions/{{ post.pk }}">
+        {{ mytag|lower|capfirst }}
+        </a>
+        </div>
 	{% endfor %}
-	</ul>
-	</body></html>
+	{% endblock %}
 
 
 Advantage of using python over other programming languages
