@@ -230,107 +230,107 @@ published on the Website.
 
 - *User Panel*
 
-Here, the user can search for questions(issues) related to the Aakash Tablet. The Forum is again sub-divided into sections like 'latest', 'frequent', 'votes' and 'unanswered'.
+	Here, the user can search for questions(issues) related to the Aakash Tablet. The Forum is again sub-divided into sections like 'latest', 'frequent', 'votes' and 'unanswered'.
 
-* Latest questions
+	* Latest questions
 
-Questions are diplayed according to their post date and time, the latest queries being on the top.
+	Questions are diplayed according to their post date and time, the latest queries being on the top.
 
-* Voted questions
+	* Voted questions
 
-The most voted queries and replies will appear upfront. Only logged in users can vote for their favourite posts.
+	The most voted queries and replies will appear upfront. Only logged in users can vote for their favourite posts.
 
-* Frequently viewed questions
+	* Frequently viewed questions
 
-Questions those are frequently searched or viewed are displayed which makes searching easy and simple.
+	Questions those are frequently searched or viewed are displayed which makes searching easy and simple.
 
-* Unanswered questions
+	* Unanswered questions
 
-Posts without replies are shown. Once answered, they don't show up in this section anymore.
+	Posts without replies are shown. Once answered, they don't show up in this section anymore.
 
-.. figure:: _static/img/questions.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: All questions
-   :align: center
+	.. figure:: _static/img/questions.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: All questions
+	   :align: center
 
 
-The user can further optimise his search through the 'tags' option. A tag is a keyword or label that categorizes your question with other, similar questions. This will show questions related to a particular tag(category) as selected by the user. Using the right tags makes it easier for others to find and answer your question. This include categories like 'Android problem', 'Back panle damage', 'Booting', 'Camera', 'Charging Problem', 'Wifi Connectivity', 'TouchScreen Problems', etc.
+	The user can further optimise his search through the 'tags' option. A tag is a keyword or label that categorizes your question with other, similar questions. This will show questions related to a particular tag(category) as selected by the user. Using the right tags makes it easier for others to find and answer your question. This include categories like 'Android problem', 'Back panle damage', 'Booting', 'Camera', 'Charging Problem', 'Wifi Connectivity', 'TouchScreen Problems', etc.
 
-.. figure:: _static/img/tags.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: All tags
-   :align: center
+	.. figure:: _static/img/tags.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: All tags
+	   :align: center
 
-The tags can also be linked with their respective questions by using the search mechanism. The user passes the tag to be searched in a text box which is processed in a view called ‘tag_search’. In this view the name of the tag is fetched from the html textbox and is checked for its availability in the database. If the tag is present, all posts related to it have been displayed. Posts have been displayed by their creation date and can be sorted by their no of views.
+	The tags can also be linked with their respective questions by using the search mechanism. The user passes the tag to be searched in a text box which is processed in a view called ‘tag_search’. In this view the name of the tag is fetched from the html textbox and is checked for its availability in the database. If the tag is present, all posts related to it have been displayed. Posts have been displayed by their creation date and can be sorted by their no of views.
 
-Screen shot of tags
+	Screen shot of tags
 
-Now, if the user doesn't find the appropriate question he is searching for then he can post his own question using the option 'Ask Question'. But for that, the user needs to login. Only then he is allowed to ask questions.
+	Now, if the user doesn't find the appropriate question he is searching for then he can post his own question using the option 'Ask Question'. But for that, the user needs to login. Only then he is allowed to ask questions.
 
-.. figure:: _static/img/login.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: Login
-   :align: center
+	.. figure:: _static/img/login.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: Login
+	   :align: center
 
-.. figure:: _static/img/ask_question.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: Ask Question
-   :align: center
+	.. figure:: _static/img/ask_question.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: Ask Question
+	   :align: center
 
 - *Admin Panel*
 
-The Admin Interface contains a column for Approval of a Post or Reply.
+	The Admin Interface contains a column for Approval of a Post or Reply.
 
 
-.. figure:: _static/img/interface1.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: Submit ticket page
-   :align: center
+	.. figure:: _static/img/interface1.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: Submit ticket page
+	   :align: center
 
 
-* Approve a Post
-   
-When the Admin clicks on 'Approve a post' option, he gets all the unapproved 
-posts.He can either approve the post or delete a post. He has also got the
-option for editing the post, if reqiuired. Whenever a post is approved,
-a mail is sent to the user who posted the issue. On approving or deleting
-a post, the Admin is directed to the same page.
+	* Approve a Post
+	   
+	When the Admin clicks on 'Approve a post' option, he gets all the unapproved 
+	posts.He can either approve the post or delete a post. He has also got the
+	option for editing the post, if reqiuired. Whenever a post is approved,
+	a mail is sent to the user who posted the issue. On approving or deleting
+	a post, the Admin is directed to the same page.
 
 
-.. figure:: _static/img/interface2.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: Submit ticket page
-   :align: center
-   
+	.. figure:: _static/img/interface2.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: Submit ticket page
+	   :align: center
+	   
 
-* Approve a Reply
-   
-When the Admin clicks on 'Approve a Reply' option, he gets all the unapproved 
-answers corresponding to the various posts. He can either approve the reply or
-delete it. He has also got the option for editing the reply, if reqiuired.
-Whenever a reply is approved,a mail is sent to the user who posted the issue so
-that he can be informed that his question has been answered. On approving or 
-deleting a reply, the Admin is directed to the same page.
+	* Approve a Reply
+	   
+	When the Admin clicks on 'Approve a Reply' option, he gets all the unapproved 
+	answers corresponding to the various posts. He can either approve the reply or
+	delete it. He has also got the option for editing the reply, if reqiuired.
+	Whenever a reply is approved,a mail is sent to the user who posted the issue so
+	that he can be informed that his question has been answered. On approving or 
+	deleting a reply, the Admin is directed to the same page.
 
 
-.. figure:: _static/img/interface3.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: Submit ticket page
-   :align: center
+	.. figure:: _static/img/interface3.png
+	   :height: 600 px
+	   :width: 900 px
+	   :scale: 50 %
+	   :alt: Submit ticket page
+	   :align: center
 
 
 
