@@ -215,7 +215,8 @@ External user Requirement
 User Interface
 --------------
 
-- **Discussion Forum**
+**Discussion Forum**
+~~~~~~~~~~~~~~~~~~~~
 
 The Discuusion Forum is an online site where people can hold conversations
 in the form of posted messages.Various kinds of questions are posted are on
@@ -334,7 +335,8 @@ deleting a reply, the Admin is directed to the same page.
 
 
 
-- **Ticketing system**
+Ticketing system
+~~~~~~~~~~~~~~~~
 
 The ticket submission system allows the user to submit his issues for resolution by the tech support officials in case the FAQs and discussion forum do not provide enough information.
 
