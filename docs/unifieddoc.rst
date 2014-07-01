@@ -232,19 +232,19 @@ published on the Website.
 
 	Here, the user can search for questions(issues) related to the Aakash Tablet. The Forum is again sub-divided into sections like 'latest', 'frequent', 'votes' and 'unanswered'.
 
-	- Latest questions
+- Latest questions
 
 	Questions are diplayed according to their post date and time, the latest queries being on the top.
 
-	- Voted questions
+- Voted questions
 
 	The most voted queries and replies will appear upfront. Only logged in users can vote for their favourite posts.
 
-	- Frequently viewed questions
+- Frequently viewed questions
 
 	Questions those are frequently searched or viewed are displayed which makes searching easy and simple.
 
-	- Unanswered questions
+- Unanswered questions
 
 	Posts without replies are shown. Once answered, they don't show up in this section anymore.
 
@@ -298,7 +298,7 @@ published on the Website.
 	   :align: center
 
 
-	- Approve a Post
+- Approve a Post
 	   
 	When the Admin clicks on 'Approve a post' option, he gets all the unapproved 
 	posts.He can either approve the post or delete a post. He has also got the
@@ -315,7 +315,7 @@ published on the Website.
 	   :align: center
 	   
 
-	- Approve a Reply
+- Approve a Reply
 	   
 	When the Admin clicks on 'Approve a Reply' option, he gets all the unapproved 
 	answers corresponding to the various posts. He can either approve the reply or
