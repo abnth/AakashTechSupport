@@ -251,7 +251,7 @@ published on the Website.
 	.. figure:: _static/img/questions.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: All questions
 	   :align: center
 
@@ -261,7 +261,7 @@ published on the Website.
 	.. figure:: _static/img/tags.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: All tags
 	   :align: center
 
@@ -272,14 +272,14 @@ published on the Website.
 	.. figure:: _static/img/login.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: Login
 	   :align: center
 
 	.. figure:: _static/img/ask_question.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: Ask Question
 	   :align: center
 
@@ -291,7 +291,7 @@ published on the Website.
 	.. figure:: _static/img/interface1.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: Submit ticket page
 	   :align: center
 
@@ -308,7 +308,7 @@ published on the Website.
 	.. figure:: _static/img/interface2.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: Submit ticket page
 	   :align: center
 	   
@@ -326,7 +326,7 @@ published on the Website.
 	.. figure:: _static/img/interface3.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: Submit ticket page
 	   :align: center
 
@@ -348,7 +348,7 @@ The user is able to go to the submit ticket page by clicking on the link to the 
 .. figure:: _static/img/submit_ticket.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Submit ticket page
    :align: center
 
@@ -361,7 +361,7 @@ A screenshot of the page showing the ticket number so generated is shown below:
 .. figure:: _static/img/after_submit.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Page where ticket id is displayed after submitting the ticket
    :align: center
 
@@ -382,7 +382,7 @@ The following screenshot shows the page containing the ticket details of the use
 .. figure:: _static/img/view_tickets.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: page containing the ticket details of the user
    :align: center
 
@@ -399,8 +399,8 @@ Three different graphs/charts have been implemented:
 	.. figure:: _static/img/category_breakup.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
-	   :alt: pie chart showing the Category-wise breakup of tickets
+	   :scale: 80 %
+	   :alt: pie chart showing the Category wise breakup of tickets
 	   :align: center
 
 	  *pie chart showing the Category-wise breakup of tickets*
@@ -410,7 +410,7 @@ Three different graphs/charts have been implemented:
 	.. figure:: _static/img/open_vs_closed.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: pie chart showing the number of open vs number of closed tickets
 	   :align: center
 	   
@@ -421,7 +421,7 @@ Three different graphs/charts have been implemented:
 	.. figure:: _static/img/traffic.png
 	   :height: 600 px
 	   :width: 900 px
-	   :scale: 50 %
+	   :scale: 80 %
 	   :alt: pie chart showing the number of tickets generated per month
 	   :align: center
 	   
@@ -440,7 +440,7 @@ A screenshot of the page showing the ticket number so generated is shown below:
 .. figure:: _static/img/dashboard.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: ticket numbers generated so far are shown on the dashboard
    :align: center
    
@@ -455,7 +455,7 @@ screenshot of the page showing the  reply interface for a particular ticket numb
 .. figure:: _static/img/reply.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: ticket numbers generated so far are shown on the dashboard
    :align: center
    
@@ -538,7 +538,7 @@ Behavioural requirements of the system are described using use case view. The Fo
 .. figure:: _static/img/TicketingSystem.jpg
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Use case diagram of the Ticketing System
    :align: center
 
@@ -547,7 +547,7 @@ Behavioural requirements of the system are described using use case view. The Fo
 .. figure:: _static/img/LoginRegSystem.jpg
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Use case diagram of the Login and Registration system
    :align: center
 
@@ -556,7 +556,7 @@ Behavioural requirements of the system are described using use case view. The Fo
 .. figure:: _static/img/DiscussionForum.jpg
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Use case diagram for Discussion Forum
    :align: center
 
@@ -611,7 +611,7 @@ Data Flow Diagram for Aakash Tech Support Portal
 .. figure:: _static/img/dfd.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Data Flow Diagram for discussion forums
    :align: center
 
@@ -623,7 +623,7 @@ Sequence Diagrams
 .. figure:: _static/img/seqdis.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Sequence Diagram for discussion forums
    :align: center
 
@@ -634,7 +634,7 @@ Sequence Diagram for discussion forums
 .. figure:: _static/img/seqticket.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Sequence Diagram for ticketing system
    :align: center
 
@@ -646,7 +646,7 @@ Flow Chart for Reporting a Problem
 .. figure:: _static/img/flowchart.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: Flow Chart for Reporting a Problem
    :align: center
 
@@ -658,7 +658,7 @@ Entity relationship diagram
 .. figure:: _static/img/erdiagram.png
    :height: 600 px
    :width: 900 px
-   :scale: 50 %
+   :scale: 80 %
    :alt: ER Diagram for Database
    :align: center
 
