@@ -239,7 +239,7 @@ Questions those are frequently searched or viewed are displayed which makes sear
 
 Posts without replies are shown. Once answered, they don't show up in this section anymore.
 
-.. figure:: static/images/questions.png
+.. figure:: static/img/questions.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -249,7 +249,7 @@ Posts without replies are shown. Once answered, they don't show up in this secti
 
 The user can further optimise his search through the 'tags' option. A tag is a keyword or label that categorizes your question with other, similar questions. This will show questions related to a particular tag(category) as selected by the user. Using the right tags makes it easier for others to find and answer your question. This include categories like 'Android problem', 'Back panle damage', 'Booting', 'Camera', 'Charging Problem', 'Wifi Connectivity', 'TouchScreen Problems', etc.
 
-.. figure:: static/images/tags.png
+.. figure:: static/img/tags.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -262,14 +262,14 @@ The tags can also be linked with their respective questions by using the search 
 
 Now, if the user doesn't find the appropriate question he is searching for then he can post his own question using the option 'Ask Question'. But for that, the user needs to login. Only then he is allowed to ask questions.
 
-.. figure:: static/images/login.png
+.. figure:: static/img/login.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
    :alt: Login
    :align: center
 
-.. figure:: static/images/ask_question.png
+.. figure:: static/img/ask_question.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
