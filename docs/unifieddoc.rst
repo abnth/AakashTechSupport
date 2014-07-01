@@ -403,7 +403,7 @@ Three different graphs/charts have been implemented:
 	   :alt: pie chart showing the Category wise breakup of tickets
 	   :align: center
 
-	  *pie chart showing the Category-wise breakup of tickets*
+	    *pie chart showing the Category-wise breakup of tickets*
 
   * A pie chart showing the number of open vs number of closed tickets.
 
@@ -656,8 +656,8 @@ Entity relationship diagram
 ---------------------------
 
 .. figure:: _static/img/erdiagram.png
-   :height: 600 px
-   :width: 900 px
+   :height: 1000 px
+   :width: 1300 px
    :scale: 80 %
    :alt: ER Diagram for Database
    :align: center
