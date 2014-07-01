@@ -217,7 +217,15 @@ User Interface
 
 - **Discussion Forum**
 
-A discussion forum is an online forum for individuals to discuss various topics amongst each other related to Aakash Tablet. People add their queries by posting a block of text to the group. Others can then comment and respond.
+The Discuusion Forum is an online site where people can hold conversations
+in the form of posted messages.Various kinds of questions are posted are on
+the forum where other can answer these questions depending upon their 
+knowledge of the topic. 
+
+In our Discussion Forum, the users post their questions regarding Aakash 
+Tablet. Other users who are familiar with the problem, can post a reply 
+for the same. Every post and reply needs the approval of admin before it gets
+published on the Website.
 
 - *User Panel*
 
@@ -239,7 +247,7 @@ Questions those are frequently searched or viewed are displayed which makes sear
 
 Posts without replies are shown. Once answered, they don't show up in this section anymore.
 
-.. figure:: static/img/questions.png
+.. figure:: _static/img/questions.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -249,7 +257,7 @@ Posts without replies are shown. Once answered, they don't show up in this secti
 
 The user can further optimise his search through the 'tags' option. A tag is a keyword or label that categorizes your question with other, similar questions. This will show questions related to a particular tag(category) as selected by the user. Using the right tags makes it easier for others to find and answer your question. This include categories like 'Android problem', 'Back panle damage', 'Booting', 'Camera', 'Charging Problem', 'Wifi Connectivity', 'TouchScreen Problems', etc.
 
-.. figure:: static/img/tags.png
+.. figure:: _static/img/tags.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -258,18 +266,18 @@ The user can further optimise his search through the 'tags' option. A tag is a k
 
 The tags can also be linked with their respective questions by using the search mechanism. The user passes the tag to be searched in a text box which is processed in a view called ‘tag_search’. In this view the name of the tag is fetched from the html textbox and is checked for its availability in the database. If the tag is present, all posts related to it have been displayed. Posts have been displayed by their creation date and can be sorted by their no of views.
 
-        Screen shot of tags
+Screen shot of tags
 
 Now, if the user doesn't find the appropriate question he is searching for then he can post his own question using the option 'Ask Question'. But for that, the user needs to login. Only then he is allowed to ask questions.
 
-.. figure:: static/img/login.png
+.. figure:: _static/img/login.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
    :alt: Login
    :align: center
 
-.. figure:: static/img/ask_question.png
+.. figure:: _static/img/ask_question.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
@@ -277,6 +285,54 @@ Now, if the user doesn't find the appropriate question he is searching for then 
    :align: center
 
 - *Admin Panel*
+
+The Admin Interface contains a column for Approval of a Post or Reply.
+
+
+.. figure:: _static/img/interface1.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: Submit ticket page
+   :align: center
+
+
+* Approve a Post
+   
+When the Admin clicks on 'Approve a post' option, he gets all the unapproved 
+posts.He can either approve the post or delete a post. He has also got the
+option for editing the post, if reqiuired. Whenever a post is approved,
+a mail is sent to the user who posted the issue. On approving or deleting
+a post, the Admin is directed to the same page.
+
+
+.. figure:: _static/img/interface2.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: Submit ticket page
+   :align: center
+   
+
+* Approve a Reply
+   
+When the Admin clicks on 'Approve a Reply' option, he gets all the unapproved 
+answers corresponding to the various posts. He can either approve the reply or
+delete it. He has also got the option for editing the reply, if reqiuired.
+Whenever a reply is approved,a mail is sent to the user who posted the issue so
+that he can be informed that his question has been answered. On approving or 
+deleting a reply, the Admin is directed to the same page.
+
+
+.. figure:: _static/img/interface3.png
+   :height: 600 px
+   :width: 900 px
+   :scale: 50 %
+   :alt: Submit ticket page
+   :align: center
+
+
+
 
 - **Ticketing system**
 
