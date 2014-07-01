@@ -161,6 +161,41 @@ References
 * `http://lethain.com/tags/django/ <http://lethain.com/tags/django/>`_
 
 
+Software Development Life Cycle Model
+=====================================
+
+Software Development Life Cycle Model adopted for this project is the evolutionary model.
+
+
+.. figure:: _static/img/sdlc.png
+   :height: 800 px
+   :width: 1200 px
+   :scale: 80 %
+   :alt: SDLC
+   :align: center
+
+
+1. System Initiation/Planning: Feasible systems replace or supplement existing information processing mechanisms whether they were previously automated, manual, or informal
+2. Requirement Analysis and Specification:Identifies the problems a new software system is suppose to solve, its operational capabilities, its desired performance characteristics, and the resource infrastructure needed to support
+system operation and maintenance.
+3. Functional Specification or Prototyping: Identifies and potentially formalizes the objects of computation, their
+attributes and relati onships, the operations that transform these objects, the constraints that restrict system behavior,
+and so forth.
+4. Partition and Selection (Build vs. Buy vs. Reuse): given requirements and functional specifications, divide the
+system into manage able pieces that denote logical subsystems,then determine whether new, existing, or reusable
+software systems correspond to the needed pieces.
+5.Architectural Design and Configuration Specification: Defines the interconnection and resource interfaces between
+system subs ystems, components, and modules in ways suitable for their detailed design and overall configuration
+management.
+6. Detailed Component Design Specification: Defines the procedural methods through which the data resources
+within the modules of a component are transformed from required inputs into provided outputs.
+7. Component Implementation and Debugging: Codifies the preceding specifications into operational source code
+implementations and validates their basic operation.
+8.Software Integration and Testing: Affirms and sustains the overall integrity of the software system architectural
+configuration through verifying the consistency and completeness of implemented modules, verifying the resource interfaces and interconnections against their specifications, and validating the performance of the system and subsystems
+against their requirements.
+9.Documentation Revision and System Delivery: Packaging and rationalizing recorded system development descriptions into systematic documents and user guides, all in a form suitable for dissemination and system support.
+
 Product Perspective 
 ===================
 
@@ -249,8 +284,8 @@ published on the Website.
 	Posts without replies are shown. Once answered, they don't show up in this section anymore.
 
 	.. figure:: _static/img/questions.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: All questions
 	   :align: center
@@ -259,8 +294,8 @@ published on the Website.
 	The user can further optimise his search through the 'tags' option. A tag is a keyword or label that categorizes your question with other, similar questions. This will show questions related to a particular tag(category) as selected by the user. Using the right tags makes it easier for others to find and answer your question. This include categories like 'Android problem', 'Back panle damage', 'Booting', 'Camera', 'Charging Problem', 'Wifi Connectivity', 'TouchScreen Problems', etc.
 
 	.. figure:: _static/img/tags.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: All tags
 	   :align: center
@@ -270,15 +305,15 @@ published on the Website.
 	Now, if the user doesn't find the appropriate question he is searching for then he can post his own question using the option 'Ask Question'. But for that, the user needs to login. Only then he is allowed to ask questions.
 
 	.. figure:: _static/img/login.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: Login
 	   :align: center
 
 	.. figure:: _static/img/ask_question.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: Ask Question
 	   :align: center
@@ -289,8 +324,8 @@ published on the Website.
 
 
 	.. figure:: _static/img/interface1.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: Submit ticket page
 	   :align: center
@@ -306,8 +341,8 @@ published on the Website.
 
 
 	.. figure:: _static/img/interface2.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: Submit ticket page
 	   :align: center
@@ -324,8 +359,8 @@ published on the Website.
 
 
 	.. figure:: _static/img/interface3.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: Submit ticket page
 	   :align: center
@@ -346,8 +381,8 @@ The user is able to go to the submit ticket page by clicking on the link to the 
 	* Email : The email field is automatically populated with the email id of the logged in user.
 
 .. figure:: _static/img/submit_ticket.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Submit ticket page
    :align: center
@@ -359,8 +394,8 @@ Once the user has submitted his details, the tablet id is validated to see that 
 A screenshot of the page showing the ticket number so generated is shown below:
 
 .. figure:: _static/img/after_submit.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Page where ticket id is displayed after submitting the ticket
    :align: center
@@ -380,8 +415,8 @@ The user can close the ticket once he is satisfied with the reply by clicking on
 The following screenshot shows the page containing the ticket details of the user; when he clicks on the view tickets link:
 
 .. figure:: _static/img/view_tickets.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: page containing the ticket details of the user
    :align: center
@@ -397,8 +432,8 @@ Three different graphs/charts have been implemented:
   * A pie chart showing the Category-wise breakup of tickets.
 
 	.. figure:: _static/img/category_breakup.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: pie chart showing the Category wise breakup of tickets
 	   :align: center
@@ -408,8 +443,8 @@ Three different graphs/charts have been implemented:
   * A pie chart showing the number of open vs number of closed tickets.
 
 	.. figure:: _static/img/open_vs_closed.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: pie chart showing the number of open vs number of closed tickets
 	   :align: center
@@ -419,8 +454,8 @@ Three different graphs/charts have been implemented:
   * A bar chart showing the number of tickets generated per month.
 
 	.. figure:: _static/img/traffic.png
-	   :height: 600 px
-	   :width: 900 px
+	   :height: 800 px
+	   :width: 1200 px
 	   :scale: 80 %
 	   :alt: pie chart showing the number of tickets generated per month
 	   :align: center
@@ -438,8 +473,8 @@ The admin dashboard  system allows the admin to check the submitted issues by aa
 A screenshot of the page showing the ticket number so generated is shown below:
 
 .. figure:: _static/img/dashboard.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: ticket numbers generated so far are shown on the dashboard
    :align: center
@@ -453,8 +488,8 @@ Reply interface allows admin to reply the query of a specific ticket by clicking
 screenshot of the page showing the  reply interface for a particular ticket number is shown below:
 
 .. figure:: _static/img/reply.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: ticket numbers generated so far are shown on the dashboard
    :align: center
@@ -536,8 +571,8 @@ Behavioural requirements of the system are described using use case view. The Fo
 - Use case diagram of the Ticketing System
 
 .. figure:: _static/img/TicketingSystem.jpg
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Use case diagram of the Ticketing System
    :align: center
@@ -545,8 +580,8 @@ Behavioural requirements of the system are described using use case view. The Fo
 - Use case diagram of the Login and Registration system
 
 .. figure:: _static/img/LoginRegSystem.jpg
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Use case diagram of the Login and Registration system
    :align: center
@@ -554,8 +589,8 @@ Behavioural requirements of the system are described using use case view. The Fo
 - Use case diagram for Discussion Forum
 
 .. figure:: _static/img/DiscussionForum.jpg
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Use case diagram for Discussion Forum
    :align: center
@@ -609,8 +644,8 @@ Data Flow Diagram for Aakash Tech Support Portal
 
 
 .. figure:: _static/img/dfd.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Data Flow Diagram for discussion forums
    :align: center
@@ -621,8 +656,8 @@ Sequence Diagrams
 - Sequence diagram for discussion forums
 
 .. figure:: _static/img/seqdis.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Sequence Diagram for discussion forums
    :align: center
@@ -632,8 +667,8 @@ Sequence Diagram for discussion forums
 - Sequence diagram for ticketing system
 
 .. figure:: _static/img/seqticket.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Sequence Diagram for ticketing system
    :align: center
@@ -644,8 +679,8 @@ Flow Chart for Reporting a Problem
 ----------------------------------
 
 .. figure:: _static/img/flowchart.png
-   :height: 600 px
-   :width: 900 px
+   :height: 800 px
+   :width: 1200 px
    :scale: 80 %
    :alt: Flow Chart for Reporting a Problem
    :align: center
