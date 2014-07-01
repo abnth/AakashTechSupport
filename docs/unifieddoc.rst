@@ -267,8 +267,6 @@ published on the Website.
 
 	The tags can also be linked with their respective questions by using the search mechanism. The user passes the tag to be searched in a text box which is processed in a view called ‘tag_search’. In this view the name of the tag is fetched from the html textbox and is checked for its availability in the database. If the tag is present, all posts related to it have been displayed. Posts have been displayed by their creation date and can be sorted by their no of views.
 
-	Screen shot of tags
-
 	Now, if the user doesn't find the appropriate question he is searching for then he can post his own question using the option 'Ask Question'. But for that, the user needs to login. Only then he is allowed to ask questions.
 
 	.. figure:: _static/img/login.png
