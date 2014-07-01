@@ -31,8 +31,8 @@ Contributors
 +----------------------+---------------+---------------------------+
 
 
-Mentors
--------
+**Mentors**
+-----------
 
 * Mr Parag Tiwari
 * Mr Veerendra Kumar Verma
@@ -49,8 +49,8 @@ We declare that this written submission represents our ideas in our own words an
 
 
 
-**Aakash Portal Team**
-**Date:** 02-07-2014
+| **Aakash Portal Team**
+| **Date:** 02-07-2014
 
 
 Abstract
@@ -153,6 +153,12 @@ References
 * `http://www.tangowithdjango.com/book/ <http://www.tangowithdjango.com/book/>`_
 * `http://www.swaroopch.com/notes/python/ <http://www.swaroopch.com/notes/python/>`_
 * `http://stackoverflow.com/ <http://stackoverflow.com/>`_
+* `https://github.com/ <https://github.com/>`_
+* `http://getbootstrap.com/ <http://getbootstrap.com/>`_
+* `http://www.sthurlow.com/python/ <http://www.sthurlow.com/python/>`_
+* `http://http://www.w3schools.com/ <http://www.w3schools.com/>`_
+* `http://www.djangobook.com/en/2.0/chapter01.html <http://www.djangobook.com/en/2.0/chapter01.html>`_
+* `http://lethain.com/tags/django/ <http://lethain.com/tags/django/>`_
 
 
 Product Perspective 
@@ -187,13 +193,7 @@ It is considered that the user do have the basic knowledge of operating the inte
 Operating Environment
 ---------------------
 
-This is a web based system and hence will require the operating environment for a client and server GUI. This will be operating in the following operating systems:
-
-Apple Mac OS X 
-
-Linux/Unix 
-
-Microsoft Windows 
+This is a web based system and hence will operate on any modern operating system running a modern browser with HTML5 and javascript support.
 
 
 Dependencies 
@@ -352,7 +352,7 @@ The user is able to go to the submit ticket page by clicking on the link to the 
    :alt: Submit ticket page
    :align: center
 
-   Submit ticket page
+   *Submit ticket page*
 
 Once the user has submitted his details, the tablet id is validated to see that its genuine; following which the user is taken to a page where his unique ticket id is displayed. The user can quote this ticket id later to refer to the problem in future.
 
@@ -365,7 +365,7 @@ A screenshot of the page showing the ticket number so generated is shown below:
    :alt: Page where ticket id is displayed after submitting the ticket
    :align: center
 
-   Page displaying ticket id after the ticket is submitted
+   *Page displaying ticket id after the ticket is submitted*
 
 
 * The view tickets feature for the user to view the details of all the tickets submitted by him
@@ -386,7 +386,7 @@ The following screenshot shows the page containing the ticket details of the use
    :alt: page containing the ticket details of the user
    :align: center
 
-   Page containing the ticket details of the user
+   *Page containing the ticket details of the user*
 
 
 * The chart/graph display system on the admin dashboard
@@ -403,7 +403,7 @@ Three different graphs/charts have been implemented:
 	   :alt: pie chart showing the Category-wise breakup of tickets
 	   :align: center
 
-	   pie chart showing the Category-wise breakup of tickets
+	  *pie chart showing the Category-wise breakup of tickets*
 
   * A pie chart showing the number of open vs number of closed tickets.
 
@@ -414,7 +414,7 @@ Three different graphs/charts have been implemented:
 	   :alt: pie chart showing the number of open vs number of closed tickets
 	   :align: center
 	   
-	    pie chart showing the number of open vs number of closed tickets
+	    *pie chart showing the number of open vs number of closed tickets*
 
   * A bar chart showing the number of tickets generated per month.
 
@@ -425,7 +425,7 @@ Three different graphs/charts have been implemented:
 	   :alt: pie chart showing the number of tickets generated per month
 	   :align: center
 	   
-	    pie chart showing the number of tickets generated per month
+	    *pie chart showing the number of tickets generated per month*
 
 The pie charts are interactive and can be rendered in different ways as desired by the admin; by clicking on the buttons along the right margin.
 
@@ -444,7 +444,7 @@ A screenshot of the page showing the ticket number so generated is shown below:
    :alt: ticket numbers generated so far are shown on the dashboard
    :align: center
    
-    all the ticket numbers generated so far are shown on the dashboard 
+    *all the ticket numbers generated so far are shown on the dashboard* 
 
 
 * The  Reply interface between user and admin
@@ -459,7 +459,7 @@ screenshot of the page showing the  reply interface for a particular ticket numb
    :alt: ticket numbers generated so far are shown on the dashboard
    :align: center
    
-    all the ticket numbers generated so far are shown on the dashboard 
+    *all the ticket numbers generated so far are shown on the dashboard* 
 
 
 The above Page show the all Details of a particular ticket along with the problem message submitted by the user. The admin  can reply correspondingly to the problem in the response section and by clicking Post Reply to send a e-mail to the user. The top of the page also shows the statistics of open and close tickets
@@ -605,30 +605,15 @@ Diagrammatic Descriptions
 Data Flow Diagram for Aakash Tech Support Portal
 -------------------------------------------------
 
-- DFD for discussion forums
+- DFD for Aakash Tech Support Portal
 
 
-.. figure:: _static/img/dfdforums.png
+.. figure:: _static/img/dfd.png
    :height: 600 px
    :width: 900 px
    :scale: 50 %
    :alt: Data Flow Diagram for discussion forums
    :align: center
-
-Data Flow Diagram for discussion forums
-
-- DFD for ticketing system
-
-
-.. figure:: _static/img/dfdticketing.png
-   :height: 600 px
-   :width: 900 px
-   :scale: 50 %
-   :alt: DFD for ticketing system
-   :align: center
-
-DFD for ticketing system
-
 
 Sequence Diagrams
 -----------------
