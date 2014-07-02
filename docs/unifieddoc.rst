@@ -257,6 +257,7 @@ published on the Website.
 	   :scale: 80 %
 	   :alt: Registration page
 	   :align: center
+	   
 	   *The Registration page* 	
 
 	* Login page
@@ -267,7 +268,8 @@ published on the Website.
 	   :scale: 80 %
 	   :alt: Login page
 	   :align: center
-	   *The login page*
+	   
+           *The login page*
 
 - *User Panel*
 
