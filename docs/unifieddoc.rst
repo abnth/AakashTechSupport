@@ -40,19 +40,6 @@ Contributors
 
 
 
-Declaration
-===========
-
-
-
-We declare that this written submission represents our ideas in our own words and where others' ideas or words have been included. We have adequately cited and referenced the original sources. We also declare that we have adhered to all principles of academic honesty and integrity and have not misrepresented or fabricated or falsified any idea/data/fact/source in our submission. We understand that any violation of the above will be cause for disciplinary action by the Institute and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been taken when needed.
-
-
-
-| **Aakash Portal Team**
-| **Date:** 02-07-2014
-
-
 Abstract
 ========
 
@@ -78,11 +65,9 @@ A list of diagrams.
 
 - Use case diagram for Discussion Forum
 
-- Level 0 data flow diagram for Aakash Portal 
+- Data flow diagram for Aakash Tech Support Portal 
 
-- Level 1dat a flow diagram for Aakash Portal 
-
-- Flow chart for Report Problem 
+- Flow chart for Reporting a problem 
 
 - ER diagram for Database 
 
@@ -97,7 +82,7 @@ In case the user cannot find his answers on discussion forums he can submit a ti
 Documentation Purpose
 ---------------------
 
-The purpose of this document is to present a detailed description of Aakash Tech Support System. It will explain the purpose and features of the system, the interfaces of the system, what the system will do, the constraints under which it must operate and how the system will react to external stimuli. This document is intended for both the stakeholders and the developers of the system .The features discussed in this document are mainly functional requirements. These requirements are described in software development perspective to easily grasp by use. It also covers the non-functional requirements like performance, reliability, availability, security and maintainability.
+The purpose of this document is to present a detailed description of *Aakash Tech Support System*. It will explain the purpose and features of the system, the interfaces of the system, what the system will do, the constraints under which it must operate and how the system will react to external stimuli. This document is intended for both the stakeholders and the developers of the system .The features discussed in this document are mainly functional requirements. These requirements are described in software development perspective to easily grasp by use. It also covers the non-functional requirements like performance, reliability, availability, security and maintainability.
 
 Project Scope
 -------------
@@ -250,7 +235,7 @@ User Interface
 **Discussion Forum**
 ~~~~~~~~~~~~~~~~~~~~
 
-The Discuusion Forum is an online site where people can hold conversations
+The Discussion Forum is an online site where people can hold conversations
 in the form of posted messages.Various kinds of questions are posted are on
 the forum where other can answer these questions depending upon their 
 knowledge of the topic. 
@@ -259,6 +244,28 @@ In our Discussion Forum, the users post their questions regarding Aakash
 Tablet. Other users who are familiar with the problem, can post a reply 
 for the same. Every post and reply needs the approval of admin before it gets
 published on the Website.
+
+- *Login and Registration Page*
+
+	Here, the new users can register into the Aakash Tech support portal. The user as well as the admin can login into the system.
+
+	* Register page
+
+	.. figure:: _static/img/register.png
+	   :height: 800 px
+	   :width: 1200 px
+	   :scale: 80 %
+	   :alt: Registration page
+	   :align: center
+
+	* Login page
+
+	.. figure:: _static/img/loginpage.png
+	   :height: 800 px
+	   :width: 1200 px
+	   :scale: 80 %
+	   :alt: Login page
+	   :align: center
 
 - *User Panel*
 
@@ -671,6 +678,8 @@ Sequence Diagram for discussion forums
    :align: center
 
 Sequence Diagram for ticketing system
+
+
 
 Flow Chart for Reporting a Problem
 ----------------------------------
