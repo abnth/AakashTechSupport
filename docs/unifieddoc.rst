@@ -249,7 +249,7 @@ published on the Website.
 
 	Here, the new users can register into the Aakash Tech support portal. The user as well as the admin can login into the system.
 
-	* Register page
+	* Registration page
 
 	.. figure:: _static/img/register.png
 	   :height: 800 px
@@ -257,6 +257,7 @@ published on the Website.
 	   :scale: 80 %
 	   :alt: Registration page
 	   :align: center
+	   *The Registration page* 	
 
 	* Login page
 
@@ -266,6 +267,7 @@ published on the Website.
 	   :scale: 80 %
 	   :alt: Login page
 	   :align: center
+	   *The login page*
 
 - *User Panel*
 
